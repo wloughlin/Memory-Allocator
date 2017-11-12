@@ -1,0 +1,5 @@
+A dynamic memory allocator implementing malloc, realloc, and free for Linux Mint.
+
+Uses a FIFO segregated free list to store free blocks.
+
+Allocates memory using first fit policy, and unidirectional coalescing with blocks of higher memory adresses is performed on free. 
